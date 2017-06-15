@@ -1,0 +1,32 @@
+{
+  "name": "findtechos",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "~1.17.1",
+    "connect-redis": "^3.3.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "express-redis-cache": "^0.5.1",
+    "express-session": "^1.15.3",
+    "hjs": "~0.0.6",
+    "knex": "^0.13.0",
+    "morgan": "~1.8.1",
+    "mysql": "^2.13.0",
+    "node-sass-middleware": "0.9.8",
+    "passport": "^0.3.2",
+    "passport-github2": "^0.1.10",
+    "passport-linkedin": "^1.0.0",
+    "passport-local": "^1.0.0",
+    "pg": "^6.2.4",
+    "serve-favicon": "~2.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
